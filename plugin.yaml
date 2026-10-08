@@ -1,0 +1,13 @@
+{
+  "name": "acedatacloud-face",
+  "version": "1.0.0",
+  "description": "Face landmark analysis from an HTTPS image through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_face_analyze"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
