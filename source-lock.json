@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "face",
+  "consumer_repository": "https://github.com/AceDataCloud/FaceHermes",
+  "canonical_contract": "services/face.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_face",
+      "acedatacloud_single_face"
+    ],
+    "toolset": [
+      "acedatacloud-face",
+      "acedatacloud-single-face"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "a78546359e7da1db9e4f3e3c2f44e82193981d756631cadfaa8a1ddcbda0a407",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/face.json": "03bbdb1aa29adb5b5068d3ad1bfcf887ba141b5a05e399dc5afabb00f8583374",
+    "plugin.yaml": "6416d10ff73db6b1ee3ec55d7246ed352397d94b7d4401591c888bf8ebee9fef",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "05a624bcd18ce9ca61310f1334b5a936c218c1e574b77bd80caa98be70ce418e",
+    "README.md": "3184baabdf28e88a7c898b346a1898ea37ce83d3f2d8bb59a819e932b3c278b6",
+    "readme/README_zh_Hans.md": "77f2807bd9eac28561b29f305755891e72b6535659f5630497d9fe95e8066503"
+  }
+}
