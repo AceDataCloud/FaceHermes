@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "dbe1fd897a7e93097d989bcb15fad554fd350135",
+  "generator": "scripts/export_service.py",
+  "service": "face",
+  "consumer_repository": "https://github.com/AceDataCloud/FaceHermes",
+  "canonical_contract": "services/face.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_face",
+      "acedatacloud_single_face"
+    ],
+    "toolset": [
+      "acedatacloud-face",
+      "acedatacloud-single-face"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "a78546359e7da1db9e4f3e3c2f44e82193981d756631cadfaa8a1ddcbda0a407",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/face.json": "03bbdb1aa29adb5b5068d3ad1bfcf887ba141b5a05e399dc5afabb00f8583374",
+    "plugin.yaml": "22733d4c51a8ce2dd4b232e3ae5db5840d6a79f9240d85b3897e21d23cebd2fa",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "32122aa6fbc400189a5db470424387f552a59b98e8f7f830661b7fabe57a7528",
+    "README.md": "f3c0515ca2ef513259f6a5a2ead26ed564f5ad98494ad4ed5a141f72d2d52045",
+    "readme/README_zh_Hans.md": "8b4e4f8745e3f9661521e8c1231f759a87dd02c5949e0534a8c25a347e5ee428"
+  }
+}
